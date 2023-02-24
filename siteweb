@@ -1,15 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    BRBR
-</body>
+    <title>Grenoble Tourisme</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#decouvrir">Découvrir</a></li>
+          <li><a href="#sejourner">Séjourner</a></li>
+          <li><a href="#sortir">Sortir</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="accueil">
+        <h1>Bienvenue à Grenoble</h1>
+        <p>Grenoble, située dans les Alpes françaises, est une ville dynamique et cosmopolite connue pour ses paysages montagneux spectaculaires et sa culture vibrant.</p>
+      </section>
+      <section id="decouvrir">
+        <h2>Découvrir Grenoble</h2>
+        <p>Grenoble offre une multitude de sites touristiques à découvrir, tels que la tour Perret, le Musée de Grenoble et la Basilique Notre-Dame.</p>
+      </section>
+      <section id="sejourner">
+        <h2>Séjourner à Grenoble</h2>
+        <p>Grenoble propose une variété d'options d'hébergement pour répondre à tous les besoins, des hôtels de luxe aux auberges de jeunesse abordables.</p>
+      </section>
+      <section id="sortir">
+        <h2>Sortir à Grenoble</h2>
+        <p>Grenoble est connu pour son vibrante scène culturelle, avec des options allant des théâtres aux clubs de nuit en passant par les festivals et les événements sportifs.</p>
+      </section>
+      <section id="evenements">
+  <h2>Événements à Grenoble</h2>
+  <ul>
+    <li>
+      <h3>Festival de musique classique</h3>
+      <p>Le festival de musique classique de Grenoble aura lieu du 1er au 10 juillet 2023 au Théâtre Municipal.</p>
+    </li>
+    <li>
+      <h3>Marathon de Grenoble</h3>
+      <p>Le Marathon de Grenoble aura lieu le 5 septembre 2023, avec des courses pour les coureurs de tous niveaux.</p>
+    </li>
+    <li>
+      <h3>Fête de la neige</h3>
+      <p>La fête de la neige aura lieu du 20 au 25 décembre 2023, avec des activités pour tous les âges et des feux d'artifice tous les soirs.</p>
+    </li>
+  </ul>
+</section>
+
+    </main>
+    <footer>
+      <p>Copyright © 2023 Grenoble Tourisme</p>
+    </footer>
+  </body>
 </html>
-<b> bonjour </b>
-TEST
-hihihih
+
